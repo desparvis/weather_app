@@ -34,6 +34,6 @@ function displayWeather(data) {
     const ffix = fahrenheit.toFixed(2); 
     result.innerHTML = `
     <h2>For ${data.name}</h2>
-    <p>Temperature: ${data.main.temp} Celsius & ${fahrenheit} Fahrenheit</p>
+    <p>Temperature: ${cfix} Celsius & ${ffix} Fahrenheit</p>
     <p>Weather: ${data.weather[0].description}</p>`;
 }
