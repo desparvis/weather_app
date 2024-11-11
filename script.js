@@ -7,7 +7,7 @@ document.getElementById("weatherForm").addEventListener("submit", function (even
 
 // The function that gets the weather information from API and converts the data into json
 async function getWeather(city) {
-    const apiKey = "185d7258e5d1b0f6dffa835d5efddfd0";
+    const apiKey = "";// I kept the API KEY private, but if you request yours on own, it will work
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     try {
