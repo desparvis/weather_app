@@ -6,7 +6,6 @@
 body {
     display: flex;
     justify-content: center;
-    min-height: 100vh;
     background-color: lightgray;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -17,8 +16,12 @@ body {
     border-radius: 8px;
     box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-top: 10px;
 }
 h1{
+    color: rgb(152, 84, 52);
+}
+h2{
     color: rgb(152, 84, 52);
 }
 form {
@@ -36,11 +39,13 @@ form {
     outline: none;
 }
 .subs {
-    width: 80px;
-    height: 40px;
+    width: 81px;
+    height: 30px;
     border-radius: 5px;
     border: 0px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: 490;
 }
 .subs:hover {
     background-color: bisque;
@@ -49,4 +54,14 @@ form {
 }
 .weather-res {
     margin-top: 20px;
+}
+.foot {
+    float: right;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.foot img {
+    width: 200px;
+    height: 150px;
+    margin-top: px;
 }
