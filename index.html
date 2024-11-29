@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Weather App</title>
+    <meta charset="UTF-8"> <!-- meta that sets character encoding to utf-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- meta for making page responsive -->
+    <link rel="stylesheet" href="styles.css"> <!-- link to external CSS -->
+    <title>Weather App</title> <!-- title of the page -->
 </head>
 
 <body>
-    <div class="container">
+    <div class="container"> <!-- content container -->
         <main>
-            <h1>Weather App</h1>
-            <form id="weatherForm">
-                <input type="text" id="cityInput" class="texts" placeholder="Enter city name...">
-                <input type="submit" class="subs" value="Go">
+            <h1>Weather App</h1> <!-- main page heading  -->
+            <form id="weatherForm"> <!-- form for entering city and submitting -->
+                <input type="text" id="cityInput" class="texts" placeholder="Enter city name..."> <!-- input for city -->
+                <input type="submit" class="subs" value="Go"> <!-- submit button for the form -->
             </form>
             <div id="weatherRes" class="weather-res">
-                <!-- weather information will appear-->
-
+                <!-- weather information will appear here -->
             </div>
         </main>
         <footer>
-            <p>&copy; Powered by Open Weather Map API</p>
-            <img src="OpenWeather-Logo-removebg-preview.png" alt="OpenWeather Logo">
+            <p>&copy; Powered by Open Weather Map API</p> <!-- Footer text with copyright info -->
+            <img src="OpenWeather-Logo-removebg-preview.png" alt="OpenWeather Logo"> <!-- OpenWeather logo image -->
         </footer>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- link to the javascript -->
 </body>
 </html>
