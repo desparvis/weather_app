@@ -2,7 +2,7 @@
 Overview:
 
 This Weather app gives you real-time weather information of city, depending on input
-gives you the information in a user-friendly format
+gives you the information in a user-friendly format.
 
 # Features:
 
