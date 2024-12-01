@@ -46,7 +46,7 @@ DOM with weather information and also fetching data.
 
 # Deployment
 
-1. I installed nginx on both of my web servers: web-01 and web-02.
+1. Nginx on both of my web servers: web-01 and web-02 was already configured to run the web app.
 2. Both of these service were configured on their respective dns "web-01.credodesparvis.tech" and "web-02.credodesparvis.tech"
 3. I had to make files index.html styles.css script in localhost directories of both servers which is "/var/www/html/"
 4. I had to copy the codes from my local computer files to the files on the webservers.
@@ -60,6 +60,10 @@ because they were already configured.
 
 I only pushed files that help the projects like index.html, styles.css, script.js and my package.json and package-lock.json that
 help the project but my .env file contains my API KEY so, I didn't push it. But I also pushed my .gitignore and this README.md of course.
+
+# DEMO video
+
+You can access the demo video here: https://youtu.be/xeTl2QFQr-I
 
 # Acknowledgements
 
